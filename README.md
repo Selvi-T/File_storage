@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+This project facilitates decentralized file upload and sharing on the blockchain using Solidity for the smart contract and React for the front-end interface. It enables users to securely upload images to IPFS (InterPlanetary File System) and share access with specified users through smart contract functionality.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+**Features**
 
-Try running some of the following tasks:
+**Decentralized Storage:**
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Files are uploaded to IPFS, ensuring decentralized and immutable storage.
+
+**Smart Contract:**
+
+Utilizes Solidity smart contracts on the Ethereum blockchain for access control and ownership management.
+
+**Access Control:**
+
+Users can grant or revoke access to their uploaded images to specific individuals through the smart contract.
+
+**Technologies Used**
+
+**Solidity:** Smart contract development for ownership and access control.
+**React**: Front-end interface for uploading images and managing access.
+**IPFS:** Decentralized storage protocol for hosting uploaded files.
