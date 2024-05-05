@@ -12,6 +12,6 @@ Files are uploaded to IPFS, ensuring decentralized and immutable storage.
 
 Utilizes Solidity smart contracts on the Ethereum blockchain for access control and ownership management.
 
-**Access Control: **
+**Access Control:**
 
 Users can grant or revoke access to their uploaded files to specific individuals through the smart contract.
